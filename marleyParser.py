@@ -610,9 +610,9 @@ if oldFormat==0:
   print('Total cross section: {0:.{1}e} x 10^-40 cm^2\n'.format(crossSection*100, nDigits))
   
   
-  print('\nTotal single neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(singleNeutronCrossSection*100, nDigits))
-  print('Total double neutron cross section: {0:.{1}e} x 10^-40 cm^2\n'.format(doubleNeutronCrossSection*100, nDigits))
-  print('Total triple neutron cross section: {0:.{1}e} x 10^-40 cm^2\n'.format(tripleNeutronCrossSection*100, nDigits))
+  print('nTotal single neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(singleNeutronCrossSection*100, nDigits))
+  print('Total double neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(doubleNeutronCrossSection*100, nDigits))
+  print('Total triple neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(tripleNeutronCrossSection*100, nDigits))
   print('Total quadruple neutron cross section: {0:.{1}e} x 10^-40 cm^2\n'.format(quadrupleNeutronCrossSection*100, nDigits))
   '''
   print("Total lepton cross section: "+str(leptonCrossSection)+" x 10^-40 cm^2")
