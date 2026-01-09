@@ -603,11 +603,11 @@ if oldFormat==0:
     
     
   nDigits=3
-  print('\nTotal bound gamma cross section: {0:.{1}e} x 10^-42 cm^2'.format(boundGammaCrossSection*100, nDigits))
-  print('Total single neutron cross section: {0:.{1}e} x 10^-42 cm^2'.format(singleNeutronCrossSection*100, nDigits))
-  print('Total proton cross section: {0:.{1}e} x 10^-42 cm^2'.format(protonCrossSection*100, nDigits))
-  print('Total alpha cross section: {0:.{1}e} x 10^-42 cm^2'.format(alphaCrossSection*100, nDigits))
-  print('Total cross section: {0:.{1}e} x 10^-42 cm^2\n'.format(crossSection*100, nDigits))
+  print('\nTotal bound gamma cross section: {0:.{1}e} x 10^-40 cm^2'.format(boundGammaCrossSection*100, nDigits))
+  print('Total single neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(singleNeutronCrossSection*100, nDigits))
+  print('Total proton cross section: {0:.{1}e} x 10^-40 cm^2'.format(protonCrossSection*100, nDigits))
+  print('Total alpha cross section: {0:.{1}e} x 10^-40 cm^2'.format(alphaCrossSection*100, nDigits))
+  print('Total cross section: {0:.{1}e} x 10^-40 cm^2\n'.format(crossSection*100, nDigits))
   
   
   print('\nTotal single neutron cross section: {0:.{1}e} x 10^-40 cm^2'.format(singleNeutronCrossSection*100, nDigits))
